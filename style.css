@@ -96,7 +96,7 @@ a:hover { color: var(--green-900); }
   border: 2px solid var(--gold); border-radius: 6px; z-index: 0;
 }
 .portrait img {
-  position: relative; z-index: 1; width: 100%; aspect-ratio: 4 / 5; object-fit: cover;
+  position: relative; z-index: 1; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
   object-position: center 18%; border-radius: 6px;
   box-shadow: 0 24px 50px rgba(0,0,0,0.35);
 }
